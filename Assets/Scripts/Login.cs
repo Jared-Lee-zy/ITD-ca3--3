@@ -23,7 +23,7 @@ public class Login : MonoBehaviour
         {
             Debug.Log("Login Successful");
             message.text = "Login Successful";
-            SceneManager.LoadScene(nextScene);
+            ///SceneManager.LoadScene(nextScene);
         }
         else
         {
